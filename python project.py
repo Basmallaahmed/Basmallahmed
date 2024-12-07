@@ -1,3 +1,4 @@
+2
 import csv
 import os
 import re
@@ -133,7 +134,7 @@ class EmployeeManager:
 def main():
     manager = EmployeeManager()
     while True:
-        print("\n*** Employee Data Management System ***")
+        print("\n*** Employee Data Management ***")
         print("1. Add Employee")
         print("2. View All Employees")
         print("3. Update Employee")
